@@ -5,6 +5,14 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day1", "Day1\Day1.vcxproj", "{2A4EDC69-0849-41DD-A067-F64549A29CAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB08137D-542E-44C3-A727-887ABCF68D8C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shared", "Shared\Shared.vcxproj", "{809BBBEB-E711-4A0F-9268-7B54808C41A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +29,14 @@ Global
 		{2A4EDC69-0849-41DD-A067-F64549A29CAE}.Release|x64.Build.0 = Release|x64
 		{2A4EDC69-0849-41DD-A067-F64549A29CAE}.Release|x86.ActiveCfg = Release|Win32
 		{2A4EDC69-0849-41DD-A067-F64549A29CAE}.Release|x86.Build.0 = Release|Win32
+		{809BBBEB-E711-4A0F-9268-7B54808C41A3}.Debug|x64.ActiveCfg = Debug|x64
+		{809BBBEB-E711-4A0F-9268-7B54808C41A3}.Debug|x64.Build.0 = Debug|x64
+		{809BBBEB-E711-4A0F-9268-7B54808C41A3}.Debug|x86.ActiveCfg = Debug|Win32
+		{809BBBEB-E711-4A0F-9268-7B54808C41A3}.Debug|x86.Build.0 = Debug|Win32
+		{809BBBEB-E711-4A0F-9268-7B54808C41A3}.Release|x64.ActiveCfg = Release|x64
+		{809BBBEB-E711-4A0F-9268-7B54808C41A3}.Release|x64.Build.0 = Release|x64
+		{809BBBEB-E711-4A0F-9268-7B54808C41A3}.Release|x86.ActiveCfg = Release|Win32
+		{809BBBEB-E711-4A0F-9268-7B54808C41A3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
